@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kavindanipun.github.io/salary-hourly-calculator/sitemap.xml
