@@ -1,1 +1,201 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Salary to Hourly Calculator | PayConvert</title><meta name="description" content="Free salary to hourly calculator. Convert annual, monthly, weekly, daily and hourly pay using your own work schedule."><link rel="canonical" href="https://kavindanipun.github.io/salary-hourly-calculator/"><link rel="stylesheet" href="style.css"></head><body><header><b>Pay<span>Convert</span></b><a href="#calc">Calculator</a><a href="#faq">FAQ</a></header><section class="hero"><small>FREE · GLOBAL · NO SIGNUP</small><h1>Turn any salary into an <em>hourly rate.</em></h1><p>Convert annual, monthly, weekly, daily and hourly pay using the work schedule that actually applies to you.</p></section><main id="calc"><div class="form"><h2>What do you earn?</h2><label>Pay period<select id="period"><option value="year">Annual salary</option><option value="month">Monthly pay</option><option value="week">Weekly pay</option><option value="day">Daily pay</option><option value="hour">Hourly pay</option></select></label><div class="grid"><label>Currency<select id="currency"><option value="$">USD — $</option><option value="£">GBP — £</option><option value="€">EUR — €</option><option value="C$">CAD — C$</option><option value="A$">AUD — A$</option><option value="₹">INR — ₹</option><option value="د.إ">AED — د.إ</option><option value="¥">JPY — ¥</option></select></label><label>Pay amount<input id="amount" type="number" value="50000"></label><label>Hours per week<input id="hours" type="number" value="40"></label><label>Weeks per year<input id="weeks" type="number" value="52"></label></div><p>Gross-pay conversion only. Taxes, deductions, overtime rules and benefits are not included.</p></div><div class="result"><small>YOUR PAY BREAKDOWN</small><h3>Hourly rate</h3><strong id="hourly"></strong><div class="cards"><div>Annual<b id="annual"></b></div><div>Monthly<b id="monthly"></b></div><div>Weekly<b id="weekly"></b></div><div>Daily (5-day week)<b id="daily"></b></div></div><p id="schedule"></p></div></main><section class="content"><h2>Popular salary conversions</h2><div class="quick"><button data-p="20" data-t="hour">$20/hour → yearly</button><button data-p="25" data-t="hour">$25/hour → yearly</button><button data-p="30" data-t="hour">$30/hour → yearly</button><button data-p="50000" data-t="year">$50,000 → hourly</button><button data-p="60000" data-t="year">$60,000 → hourly</button><button data-p="75000" data-t="year">$75,000 → hourly</button></div></section><section class="content article"><h2>How salary to hourly conversion works</h2><p>Annual working hours equal hours worked per week multiplied by weeks worked per year. Divide annual pay by annual working hours to estimate an hourly rate. This calculator also shows monthly, weekly and daily equivalents.</p><h2 id="faq">FAQ</h2><details><summary>Does this include tax?</summary><p>No. Results are gross-pay equivalents.</p></details><details><summary>Can I convert hourly pay to salary?</summary><p>Yes. Choose Hourly pay and enter your rate, hours per week and weeks per year.</p></details></section><footer>PayConvert · Free salary calculator experiment · 2026</footer><script src="app.js"></script></body></html>
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Salary to Hourly Calculator Australia | Free Pay Converter</title>
+<meta name="description" content="Convert annual salary to hourly pay or hourly rate to annual salary in Australia. See weekly, fortnightly and monthly gross pay with adjustable work hours.">
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+<link rel="canonical" href="https://kavindanipun.github.io/salary-hourly-calculator/">
+<link rel="icon" href="https://kavindanipun.github.io/salary-hourly-calculator/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="https://kavindanipun.github.io/salary-hourly-calculator/apple-touch-icon.png">
+<link rel="manifest" href="https://kavindanipun.github.io/salary-hourly-calculator/site.webmanifest">
+<meta name="theme-color" content="#3157d5">
+<meta name="color-scheme" content="light">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Salary to Hourly Calculator Australia">
+<meta property="og:locale" content="en_AU">
+<meta property="og:title" content="Salary to Hourly Calculator Australia | Free Pay Converter">
+<meta property="og:description" content="Convert annual salary to hourly pay or hourly rate to annual salary in Australia. See weekly, fortnightly and monthly gross pay with adjustable work hours.">
+<meta property="og:url" content="https://kavindanipun.github.io/salary-hourly-calculator/">
+<meta property="og:image" content="https://kavindanipun.github.io/salary-hourly-calculator/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Salary to Hourly Calculator Australia">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Salary to Hourly Calculator Australia | Free Pay Converter">
+<meta name="twitter:description" content="Convert annual salary to hourly pay or hourly rate to annual salary in Australia. See weekly, fortnightly and monthly gross pay with adjustable work hours.">
+<meta name="twitter:image" content="https://kavindanipun.github.io/salary-hourly-calculator/og-image.png">
+<link rel="stylesheet" href="https://kavindanipun.github.io/salary-hourly-calculator/assets/styles.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://kavindanipun.github.io/salary-hourly-calculator/#website","url":"https://kavindanipun.github.io/salary-hourly-calculator/","name":"Salary to Hourly Calculator Australia","inLanguage":"en-AU"},{"@type":"WebApplication","@id":"https://kavindanipun.github.io/salary-hourly-calculator/#calculator","name":"Salary to Hourly Calculator Australia","url":"https://kavindanipun.github.io/salary-hourly-calculator/","applicationCategory":"FinanceApplication","operatingSystem":"Any","isAccessibleForFree":true,"offers":{"@type":"Offer","price":"0","priceCurrency":"AUD"},"description":"Convert annual salary to hourly pay, or hourly pay to annual salary, using adjustable weekly hours and weeks worked.","inLanguage":"en-AU"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How do I convert an annual salary to an hourly rate in Australia?","acceptedAnswer":{"@type":"Answer","text":"Divide the annual salary by the total hours worked in the year. For example, with 38 hours per week and 52 weeks per year, divide the annual salary by 1,976 hours."}},{"@type":"Question","name":"How much is $80,000 a year per hour in Australia?","acceptedAnswer":{"@type":"Answer","text":"Using 38 hours per week and 52 weeks per year, $80,000 per year is approximately $40.49 per hour before tax."}},{"@type":"Question","name":"How much is $100,000 a year per hour in Australia?","acceptedAnswer":{"@type":"Answer","text":"Using 38 hours per week and 52 weeks per year, $100,000 per year is approximately $50.61 per hour before tax."}},{"@type":"Question","name":"What is the standard full-time work week in Australia?","acceptedAnswer":{"@type":"Answer","text":"Under the National Employment Standards, 38 hours per week is the maximum weekly hours reference for a full-time employee unless reasonable additional hours apply. Actual ordinary hours can depend on an award, agreement or contract."}},{"@type":"Question","name":"Does this calculator include tax and superannuation?","acceptedAnswer":{"@type":"Answer","text":"No. This calculator converts gross pay only and does not calculate income tax, superannuation, overtime, penalty rates, allowances or leave loading."}}]}</script>
+</head>
+<body data-calc-mode="annual">
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="https://kavindanipun.github.io/salary-hourly-calculator/" aria-label="Salary to Hourly Calculator Australia home">
+      <span class="brand-mark" aria-hidden="true">$</span>
+      <span>Pay Converter AU</span>
+    </a>
+    <nav class="nav-links" aria-label="Primary navigation">
+      <a href="https://kavindanipun.github.io/salary-hourly-calculator/#calculator">Calculator</a>
+      <a href="https://kavindanipun.github.io/salary-hourly-calculator/salary-to-hourly-australia/">Salary → Hourly</a>
+      <a href="https://kavindanipun.github.io/salary-hourly-calculator/hourly-to-salary-australia/">Hourly → Salary</a>
+      <a href="https://kavindanipun.github.io/salary-hourly-calculator/salary-conversion-table-australia/">Conversion Table</a>
+      <a href="https://kavindanipun.github.io/salary-hourly-calculator/#faq">FAQs</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <span class="eyebrow">Australia • Gross pay converter</span>
+      <h1>Salary to Hourly Calculator Australia</h1>
+      <p class="lead">Convert an annual salary to an hourly rate — or an hourly wage to annual salary — and instantly see weekly, fortnightly, monthly and daily gross pay.</p>
+      <ul class="hero-points" aria-label="Calculator highlights">
+        <li>38-hour week default</li><li>Adjustable hours & weeks</li><li>100% free</li><li>No sign-up</li>
+      </ul>
+    </div>
+    
+<div class="card calculator" id="calculator" aria-labelledby="calculator-title">
+  <h2 id="calculator-title" style="font-size:1.45rem;margin-bottom:16px">Pay calculator</h2>
+  <div class="calc-tabs" role="tablist" aria-label="Conversion direction">
+    <button class="tab-btn" id="annualTab" type="button" role="tab" aria-selected="true">Salary → Hourly</button>
+    <button class="tab-btn" id="hourlyTab" type="button" role="tab" aria-selected="false">Hourly → Salary</button>
+  </div>
+  <div class="form-grid">
+    <div class="field full">
+      <label id="amountLabel" for="amount">Annual salary (AUD)</label>
+      <div class="input-wrap"><span class="prefix">$</span><input class="with-prefix" id="amount" type="number" inputmode="decimal" min="0.01" step="0.01" value="80000" aria-describedby="amountHelp"></div>
+      <div class="helper" id="amountHelp">Enter your gross annual salary before tax.</div>
+    </div>
+    <div class="field">
+      <label for="hoursPerWeek">Hours per week</label>
+      <input id="hoursPerWeek" type="number" inputmode="decimal" min="1" max="168" step="0.5" value="38">
+      <div class="helper">38 is a common full-time reference in Australia.</div>
+    </div>
+    <div class="field">
+      <label for="weeksPerYear">Weeks worked per year</label>
+      <input id="weeksPerYear" type="number" inputmode="decimal" min="1" max="52" step="1" value="52">
+      <div class="helper">Use fewer weeks if your calculation excludes unpaid time.</div>
+    </div>
+    <div class="field">
+      <label for="daysPerWeek">Work days per week</label>
+      <input id="daysPerWeek" type="number" inputmode="decimal" min="1" max="7" step="1" value="5">
+    </div>
+  </div>
+  <div class="results" aria-live="polite">
+    <div class="result-primary"><small id="primaryLabel">Estimated hourly rate</small><strong id="primaryResult">—</strong></div>
+    <div class="result-grid">
+      <div class="result-item"><span>Hourly</span><strong id="hourlyResult">—</strong></div>
+      <div class="result-item"><span>Daily</span><strong id="dailyResult">—</strong></div>
+      <div class="result-item"><span>Weekly</span><strong id="weeklyResult">—</strong></div>
+      <div class="result-item"><span>Fortnightly</span><strong id="fortnightlyResult">—</strong></div>
+      <div class="result-item"><span>Monthly</span><strong id="monthlyResult">—</strong></div>
+      <div class="result-item"><span>Annual</span><strong id="annualResult">—</strong></div>
+    </div>
+    <p class="disclaimer">Gross-pay conversion only. Results do not calculate income tax, superannuation, overtime, penalty rates, allowances or leave loading.</p>
+  </div>
+</div>
+
+  </div>
+</section>
+
+<section class="trust-strip">
+  <div class="container trust-grid">
+    <div class="trust-item"><strong>Simple formula</strong><span>Transparent gross-pay conversion</span></div>
+    <div class="trust-item"><strong>Australian context</strong><span>38-hour full-time reference</span></div>
+    <div class="trust-item"><strong>Flexible inputs</strong><span>Change hours, weeks and days</span></div>
+    <div class="trust-item"><strong>Private by design</strong><span>Calculations run in your browser</span></div>
+  </div>
+</section>
+
+<section class="section soft">
+  <div class="container content-grid">
+    <div>
+      <h2>How to convert annual salary to hourly rate</h2>
+      <p class="section-intro">The basic annual salary to hourly rate formula is straightforward: divide your annual gross salary by the number of hours you work in a year.</p>
+      <div class="formula">Hourly rate = Annual salary ÷ (Hours per week × Weeks per year)</div>
+      <p class="example"><strong>Example:</strong> $80,000 ÷ (38 × 52) = approximately <strong>$40.49 per hour</strong> before tax.</p>
+      <p>If you work a different number of ordinary hours, change the hours-per-week field. If your calculation excludes unpaid periods, change the weeks-per-year field too. This makes the result more useful than assuming every worker has the same schedule.</p>
+    </div>
+    <div class="card info-card">
+      <h3>Why the calculator starts at 38 hours</h3>
+      <p>Fair Work states that the National Employment Standards set a 38-hour weekly reference for full-time employees, with reasonable additional hours possible. Awards, enterprise agreements and individual arrangements can affect actual ordinary hours.</p>
+      <p class="source-note">Source: <a href="https://www.fairwork.gov.au/tools-and-resources/fact-sheets/minimum-workplace-entitlements/maximum-weekly-hours" rel="noopener">Fair Work Ombudsman — Maximum weekly hours</a>.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2>Salary to hourly rate Australia conversion table</h2>
+    <p class="section-intro">These examples use 38 hours per week and 52 weeks per year (1,976 hours). They are gross-pay estimates before tax and other employment components.</p>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Annual salary</th><th>Hourly rate</th><th>Weekly</th><th>Fortnightly</th><th>Monthly</th></tr></thead>
+        <tbody>
+          <tr><td>$50,000</td><td>$25.30</td><td>$961.54</td><td>$1,923.08</td><td>$4,166.67</td></tr>
+          <tr><td>$60,000</td><td>$30.36</td><td>$1,153.85</td><td>$2,307.69</td><td>$5,000.00</td></tr>
+          <tr><td>$70,000</td><td>$35.43</td><td>$1,346.15</td><td>$2,692.31</td><td>$5,833.33</td></tr>
+          <tr><td>$80,000</td><td>$40.49</td><td>$1,538.46</td><td>$3,076.92</td><td>$6,666.67</td></tr>
+          <tr><td>$90,000</td><td>$45.55</td><td>$1,730.77</td><td>$3,461.54</td><td>$7,500.00</td></tr>
+          <tr><td>$100,000</td><td>$50.61</td><td>$1,923.08</td><td>$3,846.15</td><td>$8,333.33</td></tr>
+          <tr><td>$120,000</td><td>$60.73</td><td>$2,307.69</td><td>$4,615.38</td><td>$10,000.00</td></tr>
+          <tr><td>$150,000</td><td>$75.91</td><td>$2,884.62</td><td>$5,769.23</td><td>$12,500.00</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section class="section soft">
+  <div class="container">
+    <h2>Hourly to annual salary formula</h2>
+    <p class="section-intro">To work in the other direction, multiply your hourly rate by your weekly hours and the number of weeks you want included in the year.</p>
+    <div class="formula">Annual salary = Hourly rate × Hours per week × Weeks per year</div>
+    <p class="example"><strong>Example:</strong> $40/hour × 38 hours × 52 weeks = <strong>$79,040 per year</strong> before tax.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2>More Australian pay conversion guides</h2>
+    <div class="link-cards">
+      <a class="card link-card" href="https://kavindanipun.github.io/salary-hourly-calculator/salary-to-hourly-australia/"><h3>Salary to hourly rate</h3><p>Formula, examples and practical checks for annual salary → hourly calculations.</p></a>
+      <a class="card link-card" href="https://kavindanipun.github.io/salary-hourly-calculator/hourly-to-salary-australia/"><h3>Hourly to annual salary</h3><p>Convert an hourly wage into annual, monthly, fortnightly and weekly gross pay.</p></a>
+      <a class="card link-card" href="https://kavindanipun.github.io/salary-hourly-calculator/salary-conversion-table-australia/"><h3>Salary conversion table</h3><p>Quick reference table for common annual salaries using a 38-hour week.</p></a>
+    </div>
+  </div>
+</section>
+
+<section class="section soft" id="faq">
+  <div class="container">
+    <h2>Salary and hourly rate FAQs</h2>
+    <div class="faq">
+      <details><summary>How do I convert an annual salary to an hourly rate in Australia?</summary><p>Divide the annual salary by total annual work hours. With 38 hours per week and 52 weeks, annual work hours are 1,976. For example, $80,000 ÷ 1,976 is about $40.49 per hour before tax.</p></details>
+      <details><summary>How much is $80,000 a year per hour in Australia?</summary><p>At 38 hours per week for 52 weeks, $80,000 per year is approximately $40.49 per hour before tax.</p></details>
+      <details><summary>How much is $100,000 a year per hour?</summary><p>At 38 hours per week for 52 weeks, $100,000 per year is approximately $50.61 per hour before tax.</p></details>
+      <details><summary>What is the full-time weekly hours reference in Australia?</summary><p>Fair Work’s National Employment Standards use 38 hours per week as the maximum weekly hours reference for full-time employees, unless reasonable additional hours apply. Actual ordinary hours can vary under an award, agreement or employment arrangement.</p></details>
+      <details><summary>Does this salary calculator include tax or superannuation?</summary><p>No. It is a gross-pay conversion calculator. It does not calculate income tax, superannuation, overtime, penalty rates, allowances or leave loading.</p></details>
+      <details><summary>Why can my actual hourly value differ from the result?</summary><p>Your employment package may include paid leave, superannuation, bonuses, allowances, overtime or other entitlements. Your contract or industrial instrument may also define hours differently. Use this tool for gross conversion, not as a payroll or legal-entitlement calculation.</p></details>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <strong>Salary to Hourly Calculator Australia</strong>
+      <p>Free gross-pay conversion tool for estimating hourly, daily, weekly, fortnightly, monthly and annual pay. Always check your award, agreement or employment contract for your actual entitlements.</p>
+    </div>
+    <div><a href="https://kavindanipun.github.io/salary-hourly-calculator/">Calculator</a></div>
+  </div>
+</footer>
+<script src="https://kavindanipun.github.io/salary-hourly-calculator/assets/app.js" defer></script>
+</body></html>
