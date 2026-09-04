@@ -85,3 +85,21 @@ This does NOT block indexing: GitHub Pages is crawlable by default. Submit the s
 ## Ranking reality
 This build improves technical indexability, relevance, crawlability and page quality, but no code can guarantee a Google ranking.
 To move from impressions to stronger rankings, keep the site stable, get legitimate relevant links/mentions, add genuinely useful content based on Search Console queries, and improve pages from real user data.
+
+
+## 2026-09-04 Search Console query optimisation
+
+This build was updated to better match live query clusters appearing in Google Search Console, including:
+
+- how do I calculate my hourly rate
+- how to figure / work out hourly rate from annual salary
+- salary per hour calculator
+- calculate hourly rate Australia
+- annual salary to hourly rate conversion
+- hourly wage to yearly salary / hourly rate to salary
+- annual wage calculator / annual salary calculation
+- monthly salary to hourly rate
+
+Changes include stronger page-intent separation, query-aligned headings and explanations, expanded useful formulas, improved internal links, updated metadata, WebPage/Breadcrumb structured data, expanded FAQ content, and refreshed sitemap last-modified dates.
+
+Do not repeatedly change titles/headings every day. Deploy this version, request indexing for the updated URLs, then measure 7-day / 28-day impressions, average position, and clicks before making the next major SEO edit.
