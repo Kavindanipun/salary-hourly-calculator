@@ -1,0 +1,23 @@
+SEO UPDATE — 14 September 2026
+
+What changed
+- Kept all existing URLs unchanged.
+- Added Search Console query-aligned answers for $52,000/year to hourly and $45/hour to yearly salary.
+- Strengthened internal links among the calculator, salary-to-hourly guide, hourly-to-salary guide, conversion table and hourly-rate chart.
+- Added an Hourly Chart link to desktop navigation.
+- Updated page dateModified values and sitemap lastmod dates to 2026-09-14.
+- No new thin pages were created and the calculator logic/design was kept intact.
+
+Deploy
+1. Upload/commit the complete contents of this ZIP to the same GitHub Pages repository path.
+2. Do not rename folders or URLs.
+3. Confirm these URLs open after GitHub Pages finishes deployment.
+4. In Google Search Console, resubmit sitemap.xml if needed.
+5. Request indexing once for the homepage and the two most changed guide pages.
+6. Avoid another major content rewrite for about 5–7 days while collecting new Search Console data.
+
+Primary URLs to inspect
+- https://kavindanipun.github.io/salary-hourly-calculator/
+- https://kavindanipun.github.io/salary-hourly-calculator/salary-to-hourly-australia/
+- https://kavindanipun.github.io/salary-hourly-calculator/hourly-to-salary-australia/
+- https://kavindanipun.github.io/salary-hourly-calculator/hourly-rate-to-salary-chart-australia/
