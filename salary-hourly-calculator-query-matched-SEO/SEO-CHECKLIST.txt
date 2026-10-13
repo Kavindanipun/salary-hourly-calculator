@@ -1,0 +1,26 @@
+SEO DEPLOYMENT CHECKLIST
+
+[ ] Backup old repository
+[ ] Upload all files from this package
+[ ] Confirm GitHub Pages deployment succeeded
+[ ] Open https://kavindanipun.github.io/salary-hourly-calculator/
+[ ] Test mobile layout
+[ ] Test Salary -> Hourly mode
+[ ] Test Hourly -> Salary mode
+[ ] Open all 3 internal guide pages
+[ ] Confirm sitemap loads: https://kavindanipun.github.io/salary-hourly-calculator/sitemap.xml
+[ ] Search Console: Test live URL
+[ ] Search Console: Request indexing for homepage
+[ ] Search Console: Submit sitemap.xml
+[ ] Inspect 3 guide URLs
+[ ] Recheck Search Console Performance after 7 days
+[ ] Recheck again after 28 days
+
+
+SEARCH CONSOLE UPDATE 2026-09-04
+[ ] Upload the complete updated build to GitHub Pages
+[ ] Confirm all 4 canonical URLs load with 200 status
+[ ] Resubmit sitemap.xml in Search Console if needed
+[ ] Use URL Inspection → Request indexing for the home page and 3 guide pages
+[ ] Do not edit SEO titles/headings again immediately; allow Google time to recrawl
+[ ] Compare 7-day and 28-day performance after recrawl

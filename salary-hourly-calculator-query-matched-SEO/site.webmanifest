@@ -1,0 +1,16 @@
+{
+  "name": "Salary to Hourly Calculator Australia",
+  "short_name": "Pay Converter AU",
+  "start_url": "https://kavindanipun.github.io/salary-hourly-calculator/",
+  "scope": "https://kavindanipun.github.io/salary-hourly-calculator/",
+  "display": "standalone",
+  "background_color": "#f6f8fc",
+  "theme_color": "#3157d5",
+  "icons": [
+    {
+      "src": "https://kavindanipun.github.io/salary-hourly-calculator/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}
